@@ -2,9 +2,9 @@ import io
 import streamlit as st
 from PIL import Image
 import numpy as np
-from tensorflow.keras.applications import EfficientNetB0
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.efficientnet import preprocess_input, decode_predictions
+from keras.api.applications import EfficientNetB0
+from keras.api.preprocessing import image
+from keras.api.applications.efficientnet import preprocess_input, decode_predictions
 
 
 @st.cache_resource
